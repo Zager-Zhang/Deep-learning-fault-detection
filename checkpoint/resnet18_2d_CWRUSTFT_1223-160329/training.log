@@ -1,0 +1,458 @@
+12-23 16:03:29 model_name: resnet18_2d
+12-23 16:03:29 data_name: CWRUSTFT
+12-23 16:03:29 data_dir: C:\Users\ZAGER\Desktop\DL-based-Intelligent-Diagnosis-Benchmark-master\cwru
+12-23 16:03:29 normlizetype: 0-1
+12-23 16:03:29 processing_type: R_A
+12-23 16:03:29 cuda_device: 0
+12-23 16:03:29 checkpoint_dir: ./checkpoint
+12-23 16:03:29 pretrained: True
+12-23 16:03:29 batch_size: 32
+12-23 16:03:29 num_workers: 0
+12-23 16:03:29 opt: adam
+12-23 16:03:29 lr: 0.001
+12-23 16:03:29 momentum: 0.9
+12-23 16:03:29 weight_decay: 1e-05
+12-23 16:03:29 lr_scheduler: fix
+12-23 16:03:29 gamma: 0.1
+12-23 16:03:29 steps: 9
+12-23 16:03:29 max_epoch: 100
+12-23 16:03:29 print_step: 100
+12-23 16:03:29 using 1 gpus
+12-23 16:03:30 -----Epoch 0/99-----
+12-23 16:03:30 current lr: 0.001
+12-23 16:03:33 Epoch: 0 [0/1044], Train Loss: 2.3678 Train Acc: 0.0938,11.0 examples/sec 2.90 sec/batch
+12-23 16:03:38 Epoch: 0 train-Loss: 0.3830 train-Acc: 0.8851, Cost 7.6319 sec
+12-23 16:03:39 Epoch: 0 val-Loss: 9.6761 val-Acc: 0.0920, Cost 0.6074 sec
+12-23 16:03:39 save best model epoch 0, acc 0.0920
+12-23 16:03:39 -----Epoch 1/99-----
+12-23 16:03:39 current lr: 0.001
+12-23 16:03:43 Epoch: 1 train-Loss: 0.0285 train-Acc: 0.9943, Cost 4.8169 sec
+12-23 16:03:44 Epoch: 1 val-Loss: 1.1580 val-Acc: 0.5249, Cost 0.6153 sec
+12-23 16:03:44 save best model epoch 1, acc 0.5249
+12-23 16:03:44 -----Epoch 2/99-----
+12-23 16:03:44 current lr: 0.001
+12-23 16:03:49 Epoch: 2 train-Loss: 0.0070 train-Acc: 1.0000, Cost 4.8059 sec
+12-23 16:03:50 Epoch: 2 val-Loss: 0.0136 val-Acc: 0.9962, Cost 0.6233 sec
+12-23 16:03:50 save best model epoch 2, acc 0.9962
+12-23 16:03:50 -----Epoch 3/99-----
+12-23 16:03:50 current lr: 0.001
+12-23 16:03:50 Epoch: 3 [32/1044], Train Loss: 0.1143 Train Acc: 0.9693,190.1 examples/sec 0.17 sec/batch
+12-23 16:03:54 Epoch: 3 train-Loss: 0.0029 train-Acc: 1.0000, Cost 4.8159 sec
+12-23 16:03:55 Epoch: 3 val-Loss: 0.0142 val-Acc: 0.9962, Cost 0.6044 sec
+12-23 16:03:55 -----Epoch 4/99-----
+12-23 16:03:55 current lr: 0.001
+12-23 16:04:00 Epoch: 4 train-Loss: 0.0993 train-Acc: 0.9770, Cost 4.8219 sec
+12-23 16:04:00 Epoch: 4 val-Loss: 1.2228 val-Acc: 0.6667, Cost 0.6134 sec
+12-23 16:04:00 -----Epoch 5/99-----
+12-23 16:04:00 current lr: 0.001
+12-23 16:04:05 Epoch: 5 train-Loss: 0.0221 train-Acc: 0.9981, Cost 4.8199 sec
+12-23 16:04:06 Epoch: 5 val-Loss: 0.0290 val-Acc: 0.9962, Cost 0.6034 sec
+12-23 16:04:06 -----Epoch 6/99-----
+12-23 16:04:06 current lr: 0.001
+12-23 16:04:06 Epoch: 6 [64/1044], Train Loss: 0.0409 Train Acc: 0.9918,192.6 examples/sec 0.16 sec/batch
+12-23 16:04:11 Epoch: 6 train-Loss: 0.0094 train-Acc: 0.9962, Cost 4.8249 sec
+12-23 16:04:11 Epoch: 6 val-Loss: 0.0444 val-Acc: 0.9885, Cost 0.6183 sec
+12-23 16:04:11 -----Epoch 7/99-----
+12-23 16:04:11 current lr: 0.001
+12-23 16:04:16 Epoch: 7 train-Loss: 0.0153 train-Acc: 0.9981, Cost 4.8329 sec
+12-23 16:04:17 Epoch: 7 val-Loss: 0.0724 val-Acc: 0.9808, Cost 0.6293 sec
+12-23 16:04:17 -----Epoch 8/99-----
+12-23 16:04:17 current lr: 0.001
+12-23 16:04:22 Epoch: 8 train-Loss: 0.0027 train-Acc: 1.0000, Cost 4.8379 sec
+12-23 16:04:22 Epoch: 8 val-Loss: 0.0028 val-Acc: 1.0000, Cost 0.6343 sec
+12-23 16:04:22 save best model epoch 8, acc 1.0000
+12-23 16:04:22 -----Epoch 9/99-----
+12-23 16:04:22 current lr: 0.001
+12-23 16:04:23 Epoch: 9 [96/1044], Train Loss: 0.0090 Train Acc: 0.9981,190.6 examples/sec 0.17 sec/batch
+12-23 16:04:27 Epoch: 9 train-Loss: 0.0038 train-Acc: 0.9981, Cost 4.8439 sec
+12-23 16:04:28 Epoch: 9 val-Loss: 0.0009 val-Acc: 1.0000, Cost 0.6463 sec
+12-23 16:04:28 -----Epoch 10/99-----
+12-23 16:04:28 current lr: 0.001
+12-23 16:04:33 Epoch: 10 train-Loss: 0.0037 train-Acc: 1.0000, Cost 4.8379 sec
+12-23 16:04:33 Epoch: 10 val-Loss: 0.0011 val-Acc: 1.0000, Cost 0.6313 sec
+12-23 16:04:33 -----Epoch 11/99-----
+12-23 16:04:33 current lr: 0.001
+12-23 16:04:38 Epoch: 11 train-Loss: 0.0087 train-Acc: 0.9990, Cost 4.8848 sec
+12-23 16:04:39 Epoch: 11 val-Loss: 0.0043 val-Acc: 1.0000, Cost 0.6393 sec
+12-23 16:04:39 -----Epoch 12/99-----
+12-23 16:04:39 current lr: 0.001
+12-23 16:04:39 Epoch: 12 [128/1044], Train Loss: 0.0055 Train Acc: 0.9991,190.2 examples/sec 0.17 sec/batch
+12-23 16:04:44 Epoch: 12 train-Loss: 0.0077 train-Acc: 0.9990, Cost 4.8419 sec
+12-23 16:04:44 Epoch: 12 val-Loss: 0.0048 val-Acc: 1.0000, Cost 0.6124 sec
+12-23 16:04:44 -----Epoch 13/99-----
+12-23 16:04:44 current lr: 0.001
+12-23 16:04:49 Epoch: 13 train-Loss: 0.0057 train-Acc: 0.9990, Cost 4.8349 sec
+12-23 16:04:50 Epoch: 13 val-Loss: 0.0080 val-Acc: 0.9962, Cost 0.6074 sec
+12-23 16:04:50 -----Epoch 14/99-----
+12-23 16:04:50 current lr: 0.001
+12-23 16:04:55 Epoch: 14 train-Loss: 0.0008 train-Acc: 1.0000, Cost 4.8389 sec
+12-23 16:04:55 Epoch: 14 val-Loss: 0.0007 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:04:55 -----Epoch 15/99-----
+12-23 16:04:55 current lr: 0.001
+12-23 16:04:56 Epoch: 15 [160/1044], Train Loss: 0.0046 Train Acc: 0.9994,191.7 examples/sec 0.17 sec/batch
+12-23 16:05:00 Epoch: 15 train-Loss: 0.0007 train-Acc: 1.0000, Cost 4.8399 sec
+12-23 16:05:01 Epoch: 15 val-Loss: 0.0002 val-Acc: 1.0000, Cost 0.6233 sec
+12-23 16:05:01 -----Epoch 16/99-----
+12-23 16:05:01 current lr: 0.001
+12-23 16:05:05 Epoch: 16 train-Loss: 0.0668 train-Acc: 0.9761, Cost 4.8469 sec
+12-23 16:05:06 Epoch: 16 val-Loss: 54.8787 val-Acc: 0.1188, Cost 0.6133 sec
+12-23 16:05:06 -----Epoch 17/99-----
+12-23 16:05:06 current lr: 0.001
+12-23 16:05:11 Epoch: 17 train-Loss: 0.0428 train-Acc: 0.9933, Cost 4.8449 sec
+12-23 16:05:12 Epoch: 17 val-Loss: 0.0571 val-Acc: 0.9923, Cost 0.6203 sec
+12-23 16:05:12 -----Epoch 18/99-----
+12-23 16:05:12 current lr: 0.001
+12-23 16:05:13 Epoch: 18 [192/1044], Train Loss: 0.0384 Train Acc: 0.9889,191.3 examples/sec 0.17 sec/batch
+12-23 16:05:16 Epoch: 18 train-Loss: 0.0135 train-Acc: 0.9952, Cost 4.8419 sec
+12-23 16:05:17 Epoch: 18 val-Loss: 0.0341 val-Acc: 0.9923, Cost 0.6313 sec
+12-23 16:05:17 -----Epoch 19/99-----
+12-23 16:05:17 current lr: 0.001
+12-23 16:05:22 Epoch: 19 train-Loss: 0.0036 train-Acc: 0.9990, Cost 4.8549 sec
+12-23 16:05:22 Epoch: 19 val-Loss: 0.0023 val-Acc: 1.0000, Cost 0.6084 sec
+12-23 16:05:22 -----Epoch 20/99-----
+12-23 16:05:22 current lr: 0.001
+12-23 16:05:27 Epoch: 20 train-Loss: 0.0008 train-Acc: 1.0000, Cost 4.8559 sec
+12-23 16:05:28 Epoch: 20 val-Loss: 0.0008 val-Acc: 1.0000, Cost 0.6064 sec
+12-23 16:05:28 -----Epoch 21/99-----
+12-23 16:05:28 current lr: 0.001
+12-23 16:05:29 Epoch: 21 [224/1044], Train Loss: 0.0040 Train Acc: 0.9991,191.2 examples/sec 0.17 sec/batch
+12-23 16:05:33 Epoch: 21 train-Loss: 0.0007 train-Acc: 1.0000, Cost 4.8539 sec
+12-23 16:05:33 Epoch: 21 val-Loss: 0.0003 val-Acc: 1.0000, Cost 0.6263 sec
+12-23 16:05:33 -----Epoch 22/99-----
+12-23 16:05:33 current lr: 0.001
+12-23 16:05:38 Epoch: 22 train-Loss: 0.0006 train-Acc: 1.0000, Cost 4.8539 sec
+12-23 16:05:39 Epoch: 22 val-Loss: 0.0003 val-Acc: 1.0000, Cost 0.6203 sec
+12-23 16:05:39 -----Epoch 23/99-----
+12-23 16:05:39 current lr: 0.001
+12-23 16:05:44 Epoch: 23 train-Loss: 0.0013 train-Acc: 1.0000, Cost 4.8549 sec
+12-23 16:05:44 Epoch: 23 val-Loss: 0.0009 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:05:44 -----Epoch 24/99-----
+12-23 16:05:44 current lr: 0.001
+12-23 16:05:46 Epoch: 24 [256/1044], Train Loss: 0.0008 Train Acc: 1.0000,190.7 examples/sec 0.17 sec/batch
+12-23 16:05:49 Epoch: 24 train-Loss: 0.0004 train-Acc: 1.0000, Cost 4.8609 sec
+12-23 16:05:50 Epoch: 24 val-Loss: 0.0007 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:05:50 -----Epoch 25/99-----
+12-23 16:05:50 current lr: 0.001
+12-23 16:05:55 Epoch: 25 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8569 sec
+12-23 16:05:55 Epoch: 25 val-Loss: 0.0006 val-Acc: 1.0000, Cost 0.6233 sec
+12-23 16:05:55 -----Epoch 26/99-----
+12-23 16:05:55 current lr: 0.001
+12-23 16:06:00 Epoch: 26 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8559 sec
+12-23 16:06:01 Epoch: 26 val-Loss: 0.0003 val-Acc: 1.0000, Cost 0.6213 sec
+12-23 16:06:01 -----Epoch 27/99-----
+12-23 16:06:01 current lr: 0.001
+12-23 16:06:02 Epoch: 27 [288/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.7 examples/sec 0.17 sec/batch
+12-23 16:06:06 Epoch: 27 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8569 sec
+12-23 16:06:06 Epoch: 27 val-Loss: 0.0002 val-Acc: 1.0000, Cost 0.6223 sec
+12-23 16:06:06 -----Epoch 28/99-----
+12-23 16:06:06 current lr: 0.001
+12-23 16:06:11 Epoch: 28 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8559 sec
+12-23 16:06:12 Epoch: 28 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:06:12 -----Epoch 29/99-----
+12-23 16:06:12 current lr: 0.001
+12-23 16:06:17 Epoch: 29 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8629 sec
+12-23 16:06:17 Epoch: 29 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6393 sec
+12-23 16:06:17 -----Epoch 30/99-----
+12-23 16:06:17 current lr: 0.001
+12-23 16:06:19 Epoch: 30 [320/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.3 examples/sec 0.17 sec/batch
+12-23 16:06:22 Epoch: 30 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8928 sec
+12-23 16:06:23 Epoch: 30 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6313 sec
+12-23 16:06:23 -----Epoch 31/99-----
+12-23 16:06:23 current lr: 0.001
+12-23 16:06:28 Epoch: 31 train-Loss: 0.0005 train-Acc: 1.0000, Cost 4.8718 sec
+12-23 16:06:28 Epoch: 31 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:06:28 -----Epoch 32/99-----
+12-23 16:06:28 current lr: 0.001
+12-23 16:06:33 Epoch: 32 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8549 sec
+12-23 16:06:34 Epoch: 32 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6124 sec
+12-23 16:06:34 -----Epoch 33/99-----
+12-23 16:06:34 current lr: 0.001
+12-23 16:06:35 Epoch: 33 [352/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.4 examples/sec 0.17 sec/batch
+12-23 16:06:39 Epoch: 33 train-Loss: 0.0016 train-Acc: 0.9990, Cost 4.8648 sec
+12-23 16:06:39 Epoch: 33 val-Loss: 0.0180 val-Acc: 1.0000, Cost 0.5934 sec
+12-23 16:06:39 -----Epoch 34/99-----
+12-23 16:06:39 current lr: 0.001
+12-23 16:06:44 Epoch: 34 train-Loss: 0.0018 train-Acc: 1.0000, Cost 4.8559 sec
+12-23 16:06:45 Epoch: 34 val-Loss: 0.0002 val-Acc: 1.0000, Cost 0.6074 sec
+12-23 16:06:45 -----Epoch 35/99-----
+12-23 16:06:45 current lr: 0.001
+12-23 16:06:50 Epoch: 35 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8599 sec
+12-23 16:06:50 Epoch: 35 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:06:50 -----Epoch 36/99-----
+12-23 16:06:50 current lr: 0.001
+12-23 16:06:52 Epoch: 36 [384/1044], Train Loss: 0.0013 Train Acc: 0.9997,191.1 examples/sec 0.17 sec/batch
+12-23 16:06:55 Epoch: 36 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8628 sec
+12-23 16:06:56 Epoch: 36 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6143 sec
+12-23 16:06:56 -----Epoch 37/99-----
+12-23 16:06:56 current lr: 0.001
+12-23 16:07:00 Epoch: 37 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8569 sec
+12-23 16:07:01 Epoch: 37 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6143 sec
+12-23 16:07:01 -----Epoch 38/99-----
+12-23 16:07:01 current lr: 0.001
+12-23 16:07:06 Epoch: 38 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8589 sec
+12-23 16:07:07 Epoch: 38 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6114 sec
+12-23 16:07:07 -----Epoch 39/99-----
+12-23 16:07:07 current lr: 0.001
+12-23 16:07:09 Epoch: 39 [416/1044], Train Loss: 0.0002 Train Acc: 1.0000,191.0 examples/sec 0.17 sec/batch
+12-23 16:07:11 Epoch: 39 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8638 sec
+12-23 16:07:12 Epoch: 39 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6263 sec
+12-23 16:07:12 -----Epoch 40/99-----
+12-23 16:07:12 current lr: 0.001
+12-23 16:07:17 Epoch: 40 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8638 sec
+12-23 16:07:18 Epoch: 40 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6353 sec
+12-23 16:07:18 -----Epoch 41/99-----
+12-23 16:07:18 current lr: 0.001
+12-23 16:07:22 Epoch: 41 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8559 sec
+12-23 16:07:23 Epoch: 41 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6373 sec
+12-23 16:07:23 -----Epoch 42/99-----
+12-23 16:07:23 current lr: 0.001
+12-23 16:07:25 Epoch: 42 [448/1044], Train Loss: 0.0001 Train Acc: 1.0000,190.2 examples/sec 0.17 sec/batch
+12-23 16:07:28 Epoch: 42 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8579 sec
+12-23 16:07:29 Epoch: 42 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6144 sec
+12-23 16:07:29 -----Epoch 43/99-----
+12-23 16:07:29 current lr: 0.001
+12-23 16:07:33 Epoch: 43 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8609 sec
+12-23 16:07:34 Epoch: 43 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6323 sec
+12-23 16:07:34 -----Epoch 44/99-----
+12-23 16:07:34 current lr: 0.001
+12-23 16:07:39 Epoch: 44 train-Loss: 0.0007 train-Acc: 1.0000, Cost 4.8609 sec
+12-23 16:07:40 Epoch: 44 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6213 sec
+12-23 16:07:40 -----Epoch 45/99-----
+12-23 16:07:40 current lr: 0.001
+12-23 16:07:42 Epoch: 45 [480/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.4 examples/sec 0.17 sec/batch
+12-23 16:07:44 Epoch: 45 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8728 sec
+12-23 16:07:45 Epoch: 45 val-Loss: 0.0002 val-Acc: 1.0000, Cost 0.6303 sec
+12-23 16:07:45 -----Epoch 46/99-----
+12-23 16:07:45 current lr: 0.001
+12-23 16:07:50 Epoch: 46 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:07:51 Epoch: 46 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6054 sec
+12-23 16:07:51 -----Epoch 47/99-----
+12-23 16:07:51 current lr: 0.001
+12-23 16:07:55 Epoch: 47 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8718 sec
+12-23 16:07:56 Epoch: 47 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6114 sec
+12-23 16:07:56 -----Epoch 48/99-----
+12-23 16:07:56 current lr: 0.001
+12-23 16:07:58 Epoch: 48 [512/1044], Train Loss: 0.0002 Train Acc: 1.0000,190.4 examples/sec 0.17 sec/batch
+12-23 16:08:01 Epoch: 48 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8758 sec
+12-23 16:08:01 Epoch: 48 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:08:01 -----Epoch 49/99-----
+12-23 16:08:01 current lr: 0.001
+12-23 16:08:06 Epoch: 49 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8748 sec
+12-23 16:08:07 Epoch: 49 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6353 sec
+12-23 16:08:07 -----Epoch 50/99-----
+12-23 16:08:07 current lr: 0.001
+12-23 16:08:12 Epoch: 50 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8758 sec
+12-23 16:08:13 Epoch: 50 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6343 sec
+12-23 16:08:13 -----Epoch 51/99-----
+12-23 16:08:13 current lr: 0.001
+12-23 16:08:15 Epoch: 51 [544/1044], Train Loss: 0.0001 Train Acc: 1.0000,189.8 examples/sec 0.17 sec/batch
+12-23 16:08:17 Epoch: 51 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8718 sec
+12-23 16:08:18 Epoch: 51 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6243 sec
+12-23 16:08:18 -----Epoch 52/99-----
+12-23 16:08:18 current lr: 0.001
+12-23 16:08:23 Epoch: 52 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8758 sec
+12-23 16:08:23 Epoch: 52 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6114 sec
+12-23 16:08:23 -----Epoch 53/99-----
+12-23 16:08:23 current lr: 0.001
+12-23 16:08:28 Epoch: 53 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8738 sec
+12-23 16:08:29 Epoch: 53 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:08:29 -----Epoch 54/99-----
+12-23 16:08:29 current lr: 0.001
+12-23 16:08:32 Epoch: 54 [576/1044], Train Loss: 0.0001 Train Acc: 1.0000,190.2 examples/sec 0.17 sec/batch
+12-23 16:08:34 Epoch: 54 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8768 sec
+12-23 16:08:34 Epoch: 54 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:08:34 -----Epoch 55/99-----
+12-23 16:08:34 current lr: 0.001
+12-23 16:08:39 Epoch: 55 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8768 sec
+12-23 16:08:40 Epoch: 55 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6343 sec
+12-23 16:08:40 -----Epoch 56/99-----
+12-23 16:08:40 current lr: 0.001
+12-23 16:08:45 Epoch: 56 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8738 sec
+12-23 16:08:45 Epoch: 56 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6044 sec
+12-23 16:08:45 -----Epoch 57/99-----
+12-23 16:08:45 current lr: 0.001
+12-23 16:08:48 Epoch: 57 [608/1044], Train Loss: 0.0001 Train Acc: 1.0000,190.3 examples/sec 0.17 sec/batch
+12-23 16:08:50 Epoch: 57 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:08:51 Epoch: 57 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6173 sec
+12-23 16:08:51 -----Epoch 58/99-----
+12-23 16:08:51 current lr: 0.001
+12-23 16:08:56 Epoch: 58 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8678 sec
+12-23 16:08:56 Epoch: 58 val-Loss: 0.0001 val-Acc: 1.0000, Cost 0.6064 sec
+12-23 16:08:56 -----Epoch 59/99-----
+12-23 16:08:56 current lr: 0.001
+12-23 16:09:01 Epoch: 59 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8728 sec
+12-23 16:09:02 Epoch: 59 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6153 sec
+12-23 16:09:02 -----Epoch 60/99-----
+12-23 16:09:02 current lr: 0.001
+12-23 16:09:05 Epoch: 60 [640/1044], Train Loss: 0.0001 Train Acc: 1.0000,190.4 examples/sec 0.17 sec/batch
+12-23 16:09:07 Epoch: 60 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8808 sec
+12-23 16:09:07 Epoch: 60 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6014 sec
+12-23 16:09:07 -----Epoch 61/99-----
+12-23 16:09:07 current lr: 0.001
+12-23 16:09:12 Epoch: 61 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:09:13 Epoch: 61 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6143 sec
+12-23 16:09:13 -----Epoch 62/99-----
+12-23 16:09:13 current lr: 0.001
+12-23 16:09:18 Epoch: 62 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8788 sec
+12-23 16:09:18 Epoch: 62 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6433 sec
+12-23 16:09:18 -----Epoch 63/99-----
+12-23 16:09:18 current lr: 0.001
+12-23 16:09:22 Epoch: 63 [672/1044], Train Loss: 0.0001 Train Acc: 1.0000,190.2 examples/sec 0.17 sec/batch
+12-23 16:09:23 Epoch: 63 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8728 sec
+12-23 16:09:24 Epoch: 63 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6333 sec
+12-23 16:09:24 -----Epoch 64/99-----
+12-23 16:09:24 current lr: 0.001
+12-23 16:09:29 Epoch: 64 train-Loss: 0.0000 train-Acc: 1.0000, Cost 4.9388 sec
+12-23 16:09:29 Epoch: 64 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6263 sec
+12-23 16:09:29 -----Epoch 65/99-----
+12-23 16:09:29 current lr: 0.001
+12-23 16:09:34 Epoch: 65 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.9188 sec
+12-23 16:09:35 Epoch: 65 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6323 sec
+12-23 16:09:35 -----Epoch 66/99-----
+12-23 16:09:35 current lr: 0.001
+12-23 16:09:38 Epoch: 66 [704/1044], Train Loss: 0.0001 Train Acc: 1.0000,188.5 examples/sec 0.17 sec/batch
+12-23 16:09:40 Epoch: 66 train-Loss: 0.0001 train-Acc: 1.0000, Cost 4.8778 sec
+12-23 16:09:41 Epoch: 66 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6084 sec
+12-23 16:09:41 -----Epoch 67/99-----
+12-23 16:09:41 current lr: 0.001
+12-23 16:09:45 Epoch: 67 train-Loss: 0.0000 train-Acc: 1.0000, Cost 4.8848 sec
+12-23 16:09:46 Epoch: 67 val-Loss: 0.0000 val-Acc: 1.0000, Cost 0.6233 sec
+12-23 16:09:46 -----Epoch 68/99-----
+12-23 16:09:46 current lr: 0.001
+12-23 16:09:51 Epoch: 68 train-Loss: 0.1059 train-Acc: 0.9693, Cost 4.8838 sec
+12-23 16:09:52 Epoch: 68 val-Loss: 155.6149 val-Acc: 0.0920, Cost 0.6383 sec
+12-23 16:09:52 -----Epoch 69/99-----
+12-23 16:09:52 current lr: 0.001
+12-23 16:09:55 Epoch: 69 [736/1044], Train Loss: 0.0737 Train Acc: 0.9798,189.8 examples/sec 0.17 sec/batch
+12-23 16:09:56 Epoch: 69 train-Loss: 0.1213 train-Acc: 0.9693, Cost 4.8788 sec
+12-23 16:09:57 Epoch: 69 val-Loss: 0.3930 val-Acc: 0.9004, Cost 0.6253 sec
+12-23 16:09:57 -----Epoch 70/99-----
+12-23 16:09:57 current lr: 0.001
+12-23 16:10:02 Epoch: 70 train-Loss: 0.0131 train-Acc: 0.9971, Cost 4.8728 sec
+12-23 16:10:03 Epoch: 70 val-Loss: 0.0040 val-Acc: 1.0000, Cost 0.6114 sec
+12-23 16:10:03 -----Epoch 71/99-----
+12-23 16:10:03 current lr: 0.001
+12-23 16:10:07 Epoch: 71 train-Loss: 0.0092 train-Acc: 0.9971, Cost 4.8778 sec
+12-23 16:10:08 Epoch: 71 val-Loss: 0.0200 val-Acc: 0.9962, Cost 0.6203 sec
+12-23 16:10:08 -----Epoch 72/99-----
+12-23 16:10:08 current lr: 0.001
+12-23 16:10:12 Epoch: 72 [768/1044], Train Loss: 0.0095 Train Acc: 0.9981,190.2 examples/sec 0.17 sec/batch
+12-23 16:10:13 Epoch: 72 train-Loss: 0.0032 train-Acc: 1.0000, Cost 4.8778 sec
+12-23 16:10:14 Epoch: 72 val-Loss: 0.0042 val-Acc: 1.0000, Cost 0.6273 sec
+12-23 16:10:14 -----Epoch 73/99-----
+12-23 16:10:14 current lr: 0.001
+12-23 16:10:18 Epoch: 73 train-Loss: 0.0024 train-Acc: 0.9990, Cost 4.8778 sec
+12-23 16:10:19 Epoch: 73 val-Loss: 0.0008 val-Acc: 1.0000, Cost 0.6173 sec
+12-23 16:10:19 -----Epoch 74/99-----
+12-23 16:10:19 current lr: 0.001
+12-23 16:10:24 Epoch: 74 train-Loss: 0.0042 train-Acc: 0.9981, Cost 4.8758 sec
+12-23 16:10:25 Epoch: 74 val-Loss: 0.0051 val-Acc: 0.9962, Cost 0.6153 sec
+12-23 16:10:25 -----Epoch 75/99-----
+12-23 16:10:25 current lr: 0.001
+12-23 16:10:28 Epoch: 75 [800/1044], Train Loss: 0.0028 Train Acc: 0.9991,190.0 examples/sec 0.17 sec/batch
+12-23 16:10:29 Epoch: 75 train-Loss: 0.0018 train-Acc: 1.0000, Cost 4.8798 sec
+12-23 16:10:30 Epoch: 75 val-Loss: 0.0016 val-Acc: 1.0000, Cost 0.6323 sec
+12-23 16:10:30 -----Epoch 76/99-----
+12-23 16:10:30 current lr: 0.001
+12-23 16:10:35 Epoch: 76 train-Loss: 0.0005 train-Acc: 1.0000, Cost 4.9178 sec
+12-23 16:10:36 Epoch: 76 val-Loss: 0.0020 val-Acc: 1.0000, Cost 0.6243 sec
+12-23 16:10:36 -----Epoch 77/99-----
+12-23 16:10:36 current lr: 0.001
+12-23 16:10:40 Epoch: 77 train-Loss: 0.0004 train-Acc: 1.0000, Cost 4.8698 sec
+12-23 16:10:41 Epoch: 77 val-Loss: 0.0017 val-Acc: 1.0000, Cost 0.6143 sec
+12-23 16:10:41 -----Epoch 78/99-----
+12-23 16:10:41 current lr: 0.001
+12-23 16:10:45 Epoch: 78 [832/1044], Train Loss: 0.0006 Train Acc: 1.0000,189.5 examples/sec 0.17 sec/batch
+12-23 16:10:46 Epoch: 78 train-Loss: 0.0007 train-Acc: 1.0000, Cost 4.8778 sec
+12-23 16:10:47 Epoch: 78 val-Loss: 0.0010 val-Acc: 1.0000, Cost 0.6233 sec
+12-23 16:10:47 -----Epoch 79/99-----
+12-23 16:10:47 current lr: 0.001
+12-23 16:10:51 Epoch: 79 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8688 sec
+12-23 16:10:52 Epoch: 79 val-Loss: 0.0023 val-Acc: 1.0000, Cost 0.6153 sec
+12-23 16:10:52 -----Epoch 80/99-----
+12-23 16:10:52 current lr: 0.001
+12-23 16:10:57 Epoch: 80 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8778 sec
+12-23 16:10:58 Epoch: 80 val-Loss: 0.0009 val-Acc: 1.0000, Cost 0.6253 sec
+12-23 16:10:58 -----Epoch 81/99-----
+12-23 16:10:58 current lr: 0.001
+12-23 16:11:02 Epoch: 81 [864/1044], Train Loss: 0.0005 Train Acc: 1.0000,190.1 examples/sec 0.17 sec/batch
+12-23 16:11:02 Epoch: 81 train-Loss: 0.0008 train-Acc: 1.0000, Cost 4.8808 sec
+12-23 16:11:03 Epoch: 81 val-Loss: 0.0014 val-Acc: 1.0000, Cost 0.6233 sec
+12-23 16:11:03 -----Epoch 82/99-----
+12-23 16:11:03 current lr: 0.001
+12-23 16:11:08 Epoch: 82 train-Loss: 0.0007 train-Acc: 1.0000, Cost 4.8718 sec
+12-23 16:11:09 Epoch: 82 val-Loss: 0.0023 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:11:09 -----Epoch 83/99-----
+12-23 16:11:09 current lr: 0.001
+12-23 16:11:13 Epoch: 83 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:11:14 Epoch: 83 val-Loss: 0.0010 val-Acc: 1.0000, Cost 0.6203 sec
+12-23 16:11:14 -----Epoch 84/99-----
+12-23 16:11:14 current lr: 0.001
+12-23 16:11:18 Epoch: 84 [896/1044], Train Loss: 0.0004 Train Acc: 1.0000,190.2 examples/sec 0.17 sec/batch
+12-23 16:11:19 Epoch: 84 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8768 sec
+12-23 16:11:20 Epoch: 84 val-Loss: 0.0008 val-Acc: 1.0000, Cost 0.6163 sec
+12-23 16:11:20 -----Epoch 85/99-----
+12-23 16:11:20 current lr: 0.001
+12-23 16:11:24 Epoch: 85 train-Loss: 0.0004 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:11:25 Epoch: 85 val-Loss: 0.0006 val-Acc: 1.0000, Cost 0.6263 sec
+12-23 16:11:25 -----Epoch 86/99-----
+12-23 16:11:25 current lr: 0.001
+12-23 16:11:30 Epoch: 86 train-Loss: 0.0003 train-Acc: 1.0000, Cost 4.8738 sec
+12-23 16:11:31 Epoch: 86 val-Loss: 0.0005 val-Acc: 1.0000, Cost 0.6124 sec
+12-23 16:11:31 -----Epoch 87/99-----
+12-23 16:11:31 current lr: 0.001
+12-23 16:11:35 Epoch: 87 [928/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.2 examples/sec 0.17 sec/batch
+12-23 16:11:35 Epoch: 87 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8768 sec
+12-23 16:11:36 Epoch: 87 val-Loss: 0.0004 val-Acc: 1.0000, Cost 0.6253 sec
+12-23 16:11:36 -----Epoch 88/99-----
+12-23 16:11:36 current lr: 0.001
+12-23 16:11:41 Epoch: 88 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8708 sec
+12-23 16:11:42 Epoch: 88 val-Loss: 0.0005 val-Acc: 1.0000, Cost 0.6193 sec
+12-23 16:11:42 -----Epoch 89/99-----
+12-23 16:11:42 current lr: 0.001
+12-23 16:11:46 Epoch: 89 train-Loss: 0.0005 train-Acc: 1.0000, Cost 4.8808 sec
+12-23 16:11:47 Epoch: 89 val-Loss: 0.0005 val-Acc: 1.0000, Cost 0.6173 sec
+12-23 16:11:47 -----Epoch 90/99-----
+12-23 16:11:47 current lr: 0.001
+12-23 16:11:52 Epoch: 90 [960/1044], Train Loss: 0.0003 Train Acc: 1.0000,190.1 examples/sec 0.17 sec/batch
+12-23 16:11:52 Epoch: 90 train-Loss: 0.0002 train-Acc: 1.0000, Cost 4.8788 sec
+12-23 16:11:53 Epoch: 90 val-Loss: 0.0009 val-Acc: 1.0000, Cost 0.6143 sec
+12-23 16:11:53 -----Epoch 91/99-----
+12-23 16:11:53 current lr: 0.001
+12-23 16:11:57 Epoch: 91 train-Loss: 0.0004 train-Acc: 1.0000, Cost 4.8778 sec
+12-23 16:11:58 Epoch: 91 val-Loss: 0.0005 val-Acc: 1.0000, Cost 0.6213 sec
+12-23 16:11:58 -----Epoch 92/99-----
+12-23 16:11:58 current lr: 0.001
+12-23 16:12:03 Epoch: 92 train-Loss: 0.0085 train-Acc: 0.9971, Cost 4.8908 sec
+12-23 16:12:04 Epoch: 92 val-Loss: 0.1086 val-Acc: 0.9693, Cost 0.6153 sec
+12-23 16:12:04 -----Epoch 93/99-----
+12-23 16:12:04 current lr: 0.001
+12-23 16:12:08 Epoch: 93 [992/1044], Train Loss: 0.0090 Train Acc: 0.9975,189.9 examples/sec 0.17 sec/batch
+12-23 16:12:08 Epoch: 93 train-Loss: 0.0186 train-Acc: 0.9952, Cost 4.8858 sec
+12-23 16:12:09 Epoch: 93 val-Loss: 0.0646 val-Acc: 0.9808, Cost 0.6084 sec
+12-23 16:12:09 -----Epoch 94/99-----
+12-23 16:12:09 current lr: 0.001
+12-23 16:12:14 Epoch: 94 train-Loss: 0.0018 train-Acc: 1.0000, Cost 4.8808 sec
+12-23 16:12:15 Epoch: 94 val-Loss: 0.0004 val-Acc: 1.0000, Cost 0.6044 sec
+12-23 16:12:15 -----Epoch 95/99-----
+12-23 16:12:15 current lr: 0.001
+12-23 16:12:19 Epoch: 95 train-Loss: 0.0008 train-Acc: 1.0000, Cost 4.8798 sec
+12-23 16:12:20 Epoch: 95 val-Loss: 0.0002 val-Acc: 1.0000, Cost 0.6114 sec
+12-23 16:12:20 -----Epoch 96/99-----
+12-23 16:12:20 current lr: 0.001
+12-23 16:12:25 Epoch: 96 [640/1044], Train Loss: 0.0025 Train Acc: 0.9997,189.9 examples/sec 0.17 sec/batch
+12-23 16:12:25 Epoch: 96 train-Loss: 0.0045 train-Acc: 0.9990, Cost 4.8768 sec
+12-23 16:12:26 Epoch: 96 val-Loss: 0.1876 val-Acc: 0.9195, Cost 0.6134 sec
+12-23 16:12:26 -----Epoch 97/99-----
+12-23 16:12:26 current lr: 0.001
+12-23 16:12:30 Epoch: 97 train-Loss: 0.0102 train-Acc: 0.9981, Cost 4.8788 sec
+12-23 16:12:31 Epoch: 97 val-Loss: 0.0066 val-Acc: 0.9962, Cost 0.6193 sec
+12-23 16:12:31 -----Epoch 98/99-----
+12-23 16:12:31 current lr: 0.001
+12-23 16:12:36 Epoch: 98 train-Loss: 0.0064 train-Acc: 0.9971, Cost 4.8768 sec
+12-23 16:12:37 Epoch: 98 val-Loss: 0.0075 val-Acc: 0.9962, Cost 0.6223 sec
+12-23 16:12:37 -----Epoch 99/99-----
+12-23 16:12:37 current lr: 0.001
+12-23 16:12:41 Epoch: 99 train-Loss: 0.0013 train-Acc: 1.0000, Cost 4.8698 sec
+12-23 16:12:42 Epoch: 99 val-Loss: 0.0012 val-Acc: 1.0000, Cost 0.6243 sec
+12-23 16:12:42 save best model epoch 99, acc 1.0000
