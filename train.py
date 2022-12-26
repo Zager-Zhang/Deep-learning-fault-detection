@@ -18,16 +18,16 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train')
 
     # basic parameters
-    parser.add_argument('--model_name', type=str, default='cnn_2d', help='the name of the model')
-    parser.add_argument('--data_name', type=str, default='CWRUSTFT', help='the name of the data')
-    parser.add_argument('--data_dir', type=str, default= "C:\\Users\\ZAGER\\Desktop\\DL-based-Intelligent-Diagnosis-Benchmark-master\\cwru", help='the directory of the data')
+    parser.add_argument('--model_name', type=str, default='MLP', help='the name of the model')
+    parser.add_argument('--data_name', type=str, default='CWRU', help='the name of the data')
+    parser.add_argument('--data_dir', type=str, default= "C:\\Users\\ZAGER\\Desktop\\Deep-learning-fault-detection\\cwru", help='the directory of the data')
     parser.add_argument('--normlizetype', type=str, choices=['0-1', '1-1', 'mean-std'], default='0-1', help='data normalization methods')
     parser.add_argument('--processing_type', type=str, choices=['R_A', 'R_NA', 'O_A'], default='R_A',
                         help='R_A: random split with data augmentation, R_NA: random split without data augmentation, O_A: order split with data augmentation')
     parser.add_argument('--cuda_device', type=str, default='0', help='assign device')
     parser.add_argument('--checkpoint_dir', type=str, default='./checkpoint', help='the directory to save the model')
     parser.add_argument("--pretrained", type=bool, default=True, help='whether to load the pretrained model')
-    parser.add_argument('--batch_size', type=int, default=25, help='batchsize of the training process')
+    parser.add_argument('--batch_size', type=int, default=64, help='batchsize of the training process')
     parser.add_argument('--num_workers', type=int, default=0, help='the number of training process')
 
     # optimization information
